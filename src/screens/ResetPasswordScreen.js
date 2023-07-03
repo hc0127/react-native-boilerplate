@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Background from '../components/Background'
 import BackButton from '../components/BackButton'
 import Logo from '../components/Logo'
-import Header from '../components/Header'
+import Title from '../components/Title'
 import TextInput from '../components/TextInput'
 import Button from '../components/Button'
 import { emailValidator } from '../helpers/emailValidator'
@@ -23,7 +23,7 @@ export default function ResetPasswordScreen({ navigation }) {
     <Background>
       <BackButton goBack={navigation.goBack} />
       <Logo />
-      <Header>Restore Password</Header>
+      <Title>Restore Password</Title>
       <TextInput
         label="E-mail address"
         returnKeyType="done"
